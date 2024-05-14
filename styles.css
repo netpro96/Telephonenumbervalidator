@@ -1,0 +1,116 @@
+body{
+    background-color: #1A4D2E;
+    margin-top: 8%;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: -70px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-input{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 10px;
+    width: 90%;
+    height: 40px;
+    border-top-left-radius: 5% 30%;
+    border-top-right-radius: 5% 30%;
+    border-bottom-left-radius: 5% 30%;
+    border-bottom-right-radius: 5% 30%;
+}
+
+#results-div{
+    height: 320px;
+    width: 250px;
+    background-color: #074173;
+    border-radius: 5% 5%;
+    overflow-y: auto;
+  
+}
+
+#phone{
+    background-color: #074173;
+    border-radius: 5% 5%;
+}
+
+fieldset{
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-radius: 5% 5%;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#check-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+#check-btn:hover, #clear-btn:hover {
+       color: green;
+}
+
+#clear-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, .result, .invalid, #user-input, #clear-btn, #check-btn{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    color: green;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.invalid{
+    color: red !important;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
